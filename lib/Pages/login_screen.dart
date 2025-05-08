@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../Components/login_button.dart';
 import '../Components/password_TextField.dart';
 import '../Components/username_TextField.dart';
+import 'package:get_storage/get_storage.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -11,6 +12,8 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
+  // final TextEditingController usernameController = TextEditingController();
+  // final TextEditingController passwordController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
